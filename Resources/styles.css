@@ -11,3 +11,17 @@ header {
     align-content: flex-start;
     text-decoration: none;
 }
+#start-learning{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start
+    ali
+}
+
+#software-engineering {
+    display:flex;
+}
+
+#computer-art {
+    display: flex;
+}
