@@ -1,5 +1,6 @@
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: fit-content;
 }
 
 .mobile {
@@ -22,6 +23,9 @@ h4 {
     font-size: 20px;
 }
 
+p {
+    font-size: 18px;
+}
 header {
     position: sticky;
     top: 0;
@@ -35,6 +39,36 @@ header .desktop {
     align-items: center;
     padding: 0 24px;
     height: 64px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding-right: 16px;
+}
+
+nav a:last-child {
+  padding-right: 0;
+}
+
+.about {
+    display: flex; 
+    background-color: gray; 
+}
+
+.about p {
+    font-weight: bold;
+}
+
+.main-imgs {
+    width: 100%;
+}
+
+.about button {
+    padding: 8px auto;
+    color: white;
+    background-color: rgb(75, 75, 75);
+    border: none;
 }
 
 
