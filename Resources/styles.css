@@ -1,6 +1,7 @@
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: fit-content;
+    color: rgb(75, 75, 75);
 }
 
 .mobile {
@@ -53,7 +54,8 @@ nav a:last-child {
 
 .about {
     display: flex; 
-    background-color: gray; 
+    background-color: rgb(212, 208, 208); 
+    width: 60%;
 }
 
 .about p {
@@ -61,14 +63,64 @@ nav a:last-child {
 }
 
 .main-imgs {
-    width: 100%;
+    width: 60%;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0%;
 }
 
 .about button {
     padding: 8px auto;
     color: white;
     background-color: rgb(75, 75, 75);
-    border: none;
+    border: 2px solid rgb(75, 75, 75);
+    width: 100%;
+    height: 60px;
+    border-radius: 3px;
+}
+
+.information {
+    float: left;
+}
+
+.information img {
+    padding: 16px;
+    width: 40%; 
+    margin: auto;
+}
+
+
+
+.introduction  {
+    padding: 32px 0px 32px 24px;
+}
+
+.newsfeed {
+    border-color: wheat;
+    border-left: 1px solid;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    float:inline-end;
+}
+
+.start-learning {
+     display:inline-flex;
+     justify-content: space-around;
+     align-items: flex-start;
+     flex-wrap: wrap;
+     align-content: flex-start;
+     flex-direction: row;
+}
+
+.categories {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    
+
+   
 }
 
 
@@ -84,6 +136,20 @@ nav a:last-child {
     }
 }
 
+.section-heading {
+   text-align: center;
+}
+
+video {
+    float: left;
+    width: 60%; 
+}
+
+.newsfeed-desktop {
+    float: right;
+
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -96,6 +162,18 @@ header .desktop {
     justify-content: flex-end;
 }
 
+h2.desktop {
+    float: left;
+}
+
+p.desktop {
+    float: left;
+}
+
+.thesis {
+    display: flex;
+}
+
 .logo p span {
     color: gray;
     font-weight: 10;
@@ -103,5 +181,23 @@ header .desktop {
 
 .logo p strong {
     color: black;
+}
+
+footer {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-top: 1px gray;
+    font-size: 10px;
+
+}
+
+.footer {
+    float: left;
+    font-size: 10px;
+}
+.terms-privacy {
+    float: right;
 }
 
